@@ -9,6 +9,9 @@ package uts;
  *
  * @author laptop
  */
-public class AMD {
-    
+public class AMD extends CPU{
+
+    public AMD(String nama, int kecepatan) {
+        super("Intel", 3);
+    }
 }

@@ -10,5 +10,11 @@ package uts;
  * @author laptop
  */
 public class Komputer {
-    
+    private CPU cpu;
+    public Komputer(CPU cpu){
+        
+    }
+    public Komputer(){
+        
+    }
 }

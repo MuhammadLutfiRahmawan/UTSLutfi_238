@@ -9,9 +9,11 @@ package uts;
  *
  * @author laptop
  */
-public class Intel extends CPU{
-
-    public Intel(String nama, int kecepatan) {
-        super("Intel", 2);
+public class Utama {
+    public static void main(String[] args) {
+        Komputer komputer1 = new Komputer();
+        CPU cpu1 = new CPU();
+        AMD amd1 = new AMD();
+        Intel intel1 = new Intel();
     }
 }
