@@ -11,7 +11,7 @@ package uts;
  */
 public class Intel extends CPU{
 
-    public Intel(String nama, int kecepatan) {
+    public Intel(int kecepatan) {
         super("Intel", 2);
     }
 }

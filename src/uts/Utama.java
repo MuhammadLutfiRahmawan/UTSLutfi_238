@@ -11,9 +11,9 @@ package uts;
  */
 public class Utama {
     public static void main(String[] args) {
+        AMD amd1 = new AMD(0);
+        Intel intel1 = new Intel(0);
         Komputer komputer1 = new Komputer();
-        CPU cpu1 = new CPU();
-        AMD amd1 = new AMD();
-        Intel intel1 = new Intel();
+        komputer1.memasang(amd1);
     }
 }

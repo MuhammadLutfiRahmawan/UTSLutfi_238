@@ -11,7 +11,7 @@ package uts;
  */
 public class AMD extends CPU{
 
-    public AMD(String nama, int kecepatan) {
-        super("Intel", 3);
+    public AMD(int kecepatan) {
+        super("AMD", 3);
     }
 }
