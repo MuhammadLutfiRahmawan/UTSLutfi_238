@@ -17,12 +17,12 @@ public class Komputer {
     public Komputer(){
     }
     public void memasang(CPU cpu){
-        System.out.println("CPU: "+cpu.getCPUDAta()+"dipasang");
+        System.out.println("CPU: "+cpu.getCPUDAta()+" dipasang");
     }
     public void melepas(CPU cpu){
-        System.out.println("CPU: "+cpu.getCPUDAta()+"dilepas");
+        System.out.println("CPU: "+cpu.getCPUDAta()+" dilepas");
     }
     public void cetakInfo(CPU cpu){
-        System.out.println("CPU: "+cpu.getCPUDAta()+"dipasang");
+        System.out.println("Spesifikasi: CPU: "+cpu.getCPUDAta()+" dipasang");
     }   
 }
