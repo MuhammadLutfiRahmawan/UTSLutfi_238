@@ -22,7 +22,7 @@ public class Komputer {
     public void melepas(CPU cpu){
         System.out.println("CPU: "+cpu.getCPUDAta()+" dilepas");
     }
-    public void cetakInfo(CPU cpu){
-        System.out.println("Spesifikasi: CPU: "+cpu.getCPUDAta()+" dipasang");
+    public void cetakInfo(){
+        System.out.println("Spesifikasi: CPU: "+this.cpu.getCPUDAta());
     }   
 }

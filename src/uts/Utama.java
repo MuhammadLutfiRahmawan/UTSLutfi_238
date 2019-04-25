@@ -11,12 +11,12 @@ package uts;
  */
 public class Utama {
     public static void main(String[] args) {
-        AMD amd1 = new AMD(0);
-        Intel intel1 = new Intel(0);
-        Komputer komputer1 = new Komputer();
-        komputer1.cetakInfo(intel1);
-        komputer1.memasang(amd1);
+        AMD amd1 = new AMD(3);
+        Intel intel1 = new Intel(2);
+        Komputer komputer1 = new Komputer(intel1);
+        komputer1.cetakInfo();
         komputer1.melepas(intel1);
-        komputer1.cetakInfo(amd1);
+        komputer1.memasang(amd1);
+        komputer1.cetakInfo();
     }
 }
